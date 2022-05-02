@@ -9,9 +9,14 @@ def chek(x, y, z):
     itog2 = (not x) and (not y) and (not z)
     print('выражение в правой части {}'.format(itog2))
     if (itog1 == itog2):
-            print('Утверждение истинно')
+        print('Утверждение истинно')
     else:
-            print('Утверждение ложно')
+        print('Утверждение ложно')
 
 
-chek(True, True, False)
+for a in range(0, 2):
+    for b in range(0, 2):
+        for c in range(0, 2):
+            chek(a, b, c)
+
+
