@@ -11,13 +11,13 @@ temp = 0
 for i in range(len(data1)+1):
 
     if i == len(data1):
-        print(i)
         str1 = str1+str(temp)+data1[count]
     elif data1[i] == data1[count]:
         temp += 1
     else:
         str1 = str1+str(temp)+data1[count]
         count += temp
+        i+=count
         temp = 1
 
 print(str1)
