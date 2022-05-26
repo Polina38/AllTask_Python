@@ -1,0 +1,5 @@
+Ivanov;Gleb;89145670134;driver
+Semenova;Marya;89647082918;teacher
+Doronin;Denis;89145091320;friend my san
+Orlova;Olga;89996043817;sister
+Burasov;Maxim;89245150030;colleague
